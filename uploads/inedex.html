@@ -1,0 +1,173 @@
+<p style="text-align:center">Blog Post Api</p>
+
+<p>Api Type =&gt; Open public</p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#1abc9c">1. Get All Post&nbsp;</span></p>
+
+<p>Method GET</p>
+
+<p>&nbsp;end point :&nbsp;&quot;/posts&quot;</p>
+
+<p>result :</p>
+
+<p><span style="background-color:#1abc9c">success</span> =&gt;&nbsp;</p>
+
+<p>[</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;id&quot;: 1,</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;title&quot;: &quot;Edited&quot;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+
+<p>]</p>
+
+<p><span style="color:#ffffff"><span style="background-color:#c0392b">&nbsp;error&nbsp;</span></span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&nbsp; &nbsp; &nbsp; status: 500,</p>
+
+<p>&nbsp; &nbsp; &nbsp;error: &#39;Something Wrong&#39;</p>
+
+<p>}</p>
+
+<p><span style="color:#1abc9c">2. Get One Post&nbsp;</span></p>
+
+<p>Method GET</p>
+
+<p>&nbsp;end point :&nbsp;&quot;/post&quot;</p>
+
+<p>Query : id</p>
+
+<p>result :</p>
+
+<p><span style="background-color:#1abc9c">success</span> =&gt;&nbsp;</p>
+
+<p>[</p>
+
+<p>&nbsp; &nbsp;{</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;id&quot;: 1,</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;title&quot;: &quot;Edited&quot;,</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;body&quot;: &quot;Body edited&quot;,</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;photo&quot;: &quot;uploads/1647159200000.png&quot;</p>
+
+<p>&nbsp; }</p>
+
+<p>]</p>
+
+<p><span style="color:#ffffff"><span style="background-color:#c0392b">&nbsp;error&nbsp;</span></span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&nbsp; &nbsp; &nbsp; status: 500,</p>
+
+<p>&nbsp; &nbsp; &nbsp;error: &#39;Something Wrong&#39;</p>
+
+<p>}</p>
+
+<p><span style="color:#1abc9c">4. Add One Post&nbsp;</span></p>
+
+<p>Method POST</p>
+
+<p>&nbsp;end point :&nbsp;&quot;/post&quot;</p>
+
+<p>Query : title,body</p>
+
+<p>Formdata : photo</p>
+
+<p>&nbsp;</p>
+
+<p>result :</p>
+
+<p><span style="background-color:#1abc9c">success</span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&quot;result&quot;: &quot;successfully uploaded&quot;</p>
+
+<p>}</p>
+
+<p><span style="color:#ffffff"><span style="background-color:#c0392b">&nbsp;error&nbsp;</span></span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&nbsp; &nbsp; &nbsp; status: 500,</p>
+
+<p>&nbsp; &nbsp; &nbsp;error: &#39;Something Wrong&#39;</p>
+
+<p>}</p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#1abc9c">3. Update One Post&nbsp;</span></p>
+
+<p>Method PUT</p>
+
+<p>&nbsp;end point :&nbsp;&quot;/post&quot;</p>
+
+<p>Query : id,title,body</p>
+
+<p>&nbsp;</p>
+
+<p>result :</p>
+
+<p><span style="background-color:#1abc9c">success</span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&quot;result&quot;: &quot;successfully updated&quot;</p>
+
+<p>}</p>
+
+<p><span style="color:#ffffff"><span style="background-color:#c0392b">&nbsp;error&nbsp;</span></span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&nbsp; &nbsp; &nbsp; status: 500,</p>
+
+<p>&nbsp; &nbsp; &nbsp;error: &#39;Something Wrong&#39;</p>
+
+<p>}</p>
+
+<p>&nbsp;</p>
+
+<p>5<span style="color:#1abc9c">. Delete Post&nbsp;</span></p>
+
+<p>Method DELETE</p>
+
+<p>&nbsp;end point :&nbsp;&quot;/post&quot;</p>
+
+<p>Query : id</p>
+
+<p>result :</p>
+
+<p><span style="background-color:#1abc9c">success</span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&quot;result&quot;: &quot;successfully deleted&quot;</p>
+
+<p>}</p>
+
+<p><span style="color:#ffffff"><span style="background-color:#c0392b">&nbsp;error&nbsp;</span></span> =&gt;&nbsp;</p>
+
+<p>{</p>
+
+<p>&nbsp; &nbsp; &nbsp; status: 500,</p>
+
+<p>&nbsp; &nbsp; &nbsp;error: &#39;Something Wrong&#39;</p>
+
+<p>}</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
